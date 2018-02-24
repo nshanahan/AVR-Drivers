@@ -63,7 +63,7 @@ bool owi_is_busy(uint8_t pin);
  * @param[in] pin Pin number OWI device is connected to.
  * @return bool
  */
-bool owi_detect_presence(uint8_t pin)
+bool owi_detect_presence(uint8_t pin);
 
 /*!
  * @brief Writes a byte of data to OWI bus specified by the
