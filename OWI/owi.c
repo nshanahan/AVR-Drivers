@@ -225,7 +225,7 @@ void owi_read_rom(uint8_t *rom, uint8_t pin)
     
     owi_send_byte(READ_ROM_CMD, pin);
 
-    for (idx = (ROM_LEN_BYTES - 1); idx >= 0; idex--)
+    for (idx = (ROM_LEN_BYTES - 1); idx >= 0; idx--)
     {
         rom[idx] = owi_recv_byte(pin);
     }
@@ -236,11 +236,11 @@ void owi_match_rom(uint8_t *rom, uint8_t pin)
 {
     int8_t idx;
     
-    send_byte(MATCH_ROM_CMD,pin);
+    owi_send_byte(MATCH_ROM_CMD,pin);
 
     for (idx = (ROM_LEN_BYTES - 1); idx >= 0; idx--)
     {
-        owi_send_byte(rom[i], pin);
+        owi_send_byte(rom[idx], pin);
     }
 }
 

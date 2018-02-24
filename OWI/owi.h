@@ -25,6 +25,7 @@ extern "C" {
                             Includes
 ***************************************************************/
 #include <stdint.h>
+#include <stdbool.h>
 
 /**************************************************************
                             Macros
@@ -33,7 +34,7 @@ extern "C" {
  * Dallas OWI port letter.
  * TODO: Can this be made configurable some other way?
  */
-#define OWI_PORT A
+#define OWI_PORT B
 
 /**************************************************************
                       Pulbic Functions
