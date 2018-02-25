@@ -1,10 +1,11 @@
 /***************************************************************
- * Nicholas Shanahan (2016)
+ * @file owi_crc.h
+ * 
+ * @par Nicholas Shanahan (2016)
  *
- * DESCRIPTION:
- *  - Utility to compute the 8-bit cyclic redundancy check (CRC8)
- *    of a byte of data. Intended to be used to compute the CRC8
- *    of a large byte array.
+ * @brief Utility to compute the 8-bit cyclic redundancy check (CRC8)
+ * of a byte of data. Intended to be used to compute the CRC8
+ * of a large byte array.
  *
  **************************************************************/
 

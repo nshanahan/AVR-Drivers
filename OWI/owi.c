@@ -3,14 +3,13 @@
  *
  * @par Nicholas Shanahan (2018)
  *
- * @brief
- *  - Driver for Dallas 1-Wire Interface (OWI) bus. Intended for
- *    the AVR family of microcontrollers. This implementation 
- *    does not rely on UART hardware. Assumes presence external
- *    pull-up resistors.
+ * @brief Driver for Dallas 1-Wire Interface (OWI) bus. Intended for
+ * the AVR family of microcontrollers. This implementation 
+ * does not rely on UART hardware. Assumes presence external
+ * pull-up resistors.
  *
- *    Developed in accordance with AVR318: Dallas 1-Wire Master text.
- *    http://www.atmel.com/images/doc2579.pdf
+ * Developed in accordance with AVR318: Dallas 1-Wire Master text.
+ * http://www.atmel.com/images/doc2579.pdf
  *
  **************************************************************/
  

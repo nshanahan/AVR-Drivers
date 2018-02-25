@@ -1,8 +1,9 @@
 /***************************************************************
- * Nicholas Shanahan (2016)
+ * @file owi_crc.c
+ * 
+ * @par Nicholas Shanahan (2016)
  *
- * DESCRIPTION:
- *  - 
+ * @brief Library to calculate Cyclic Redundancy Check (CRC).
  *
  **************************************************************/
 
@@ -11,6 +12,7 @@
 ***************************************************************/
 #include "owi_crc.h"
 #include <stdint.h>
+#include <avr/io.h>
 
 /**************************************************************
                             Macros

@@ -1,14 +1,12 @@
 /***************************************************************
  * @file owi_delay.h
  *
- * @pars
- * Nicholas Shanahan (2016)
+ * @par Nicholas Shanahan (2016)
  *
- * @brief
- *  - Dallas Semiconductors recommended delay values
- *    (in microseconds) for the for the bit-level OWI functions.
- *    See able 3 of the AVR318: Dallas 1-Wire Master text
- *    http://www.atmel.com/images/doc2579.pdf
+ * @brief Dallas Semiconductors recommended delay values
+ * (in microseconds) for the for the bit-level OWI functions.
+ * See able 3 of the AVR318: Dallas 1-Wire Master text
+ * http://www.atmel.com/images/doc2579.pdf
  *
  **************************************************************/
  
