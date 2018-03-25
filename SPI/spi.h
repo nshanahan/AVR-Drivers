@@ -35,7 +35,7 @@ extern "C" {
 #define DD_SS    2 //Default Slave Select pin
 #define DD_MOSI  3 //Master-Out/Slave-In pin
 #define DD_MISO  4 //Master-In/Slave-Out pin
-#define DD_SCK	 5 //Synchronizing Clock pin
+#define DD_SCK   5 //Synchronizing Clock pin
 
 //Data transfer order
 #define SPI_DORD_LSB_FIRST 1
@@ -54,12 +54,12 @@ typedef enum {
 
 //SPI Serial Clock (SCK) Prescalers
 typedef enum {
-	SPI_SCK_DIV_4,
+  SPI_SCK_DIV_4,
   SPI_SCK_DIV_8,
-	SPI_SCK_DIV_16,
+  SPI_SCK_DIV_16,
   SPI_SCK_DIV_32,
-	SPI_SCK_DIV_64,
-	SPI_SCK_DIV_128
+  SPI_SCK_DIV_64,
+  SPI_SCK_DIV_128
 } spi_sck_t;
 
 /**************************************************************
